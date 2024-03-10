@@ -1,0 +1,230 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url("sample.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+footer {
+  background-color: #4f6e6a;
+  color: #fff;
+  text-align: center;
+  padding: 3px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+
+.container_comment {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%; /* Adjust width as needed */
+  max-width: 600px; /* Adjust maximum width as needed */
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 999; /* Ensure it's on top of other content */
+}
+
+.container_comment .col-md-8 {
+  margin: 0 auto; /* Center the form horizontally */
+}
+
+.container_comment h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.container_comment form {
+  width: 200%;
+}
+
+.container_comment textarea {
+  width: 100%;
+  resize: none;
+}
+
+.container_comment button.btn_submit {
+  display: block;
+  margin: 20px auto 0;
+}
+
+
+.menu-bar
+{
+  background: #4f6e6a;
+  text-align: center;
+}
+.menu-bar ul
+{
+  display: inline-flex;
+  list-style: none;
+  color: #FFF;
+}
+.menu-bar ul li
+{
+  width: 120px;
+  margin: 15px;
+  padding: 15px;
+}
+.menu-bar ul li a
+{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.active, .menu-bar ul li:hover
+{
+  background: #325D79;
+  border-radius: 3px;
+}
+.menu-bar .fa
+{
+  margin-right: 8px;
+}
+.sub-menu-1
+{
+  display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+  display:block;
+  position: absolute;
+  background: #4aafa1;
+  margin-top: 15px;
+  margin-left: -20px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+  display: block;
+  margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+  background: #4aafa1;
+  border-radius: 0;
+  text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+  border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+  color: #325D79;
+}
+
+section{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  margin-top: 400px;
+}
+.wrapper .button{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover{
+  width: 200px;
+}
+.wrapper .button .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1):hover .icon{
+  background: #4267B2;
+}
+.wrapper .button:nth-child(2):hover .icon{
+  background: #1DA1F2;
+}
+.wrapper .button:nth-child(3):hover .icon{
+  background: #E1306C;
+}
+
+.wrapper .button .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover .icon i{
+  color: #fff;
+}
+.wrapper .button span{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1) span{
+  color: #4267B2;
+}
+.wrapper .button:nth-child(2) span{
+  color: #1DA1F2;
+}
+.wrapper .button:nth-child(3) span{
+  color: #E1306C;
+}
+
+header{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  margin-top: 100px;
+  margin-bottom: -300px;
+  align-self: center;
+}
+
+.mycontact{
+  align-self: center;
+}
+
+.resume-link {
+  text-align: center; /* Align the link to the center */
+  margin-top: 20px; /* Add some space above the link */
+}
+
+.resume-link a {
+  display: inline-block; /* Display the link as a block element */
+  padding: 10px 20px; /* Add padding around the link */
+  background-color: #070808; /* Set background color */
+  color: #fff; /* Set text color to white */
+  text-decoration: none; /* Remove underline */
+  border-radius: 5px; /* Add rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.resume-link a:hover {
+  background-color: #0056b3; /* Darken the background color on hover */
+}
+
+

@@ -1,0 +1,45 @@
+/* Body Styles */
+body {
+    background: url('sample.png') no-repeat center/cover;
+    font-family: 'Fredoka', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Button Styles */
+.btnSubmit {
+    background: #325D79;
+    border: none;
+    border-radius: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+    padding: 1%;
+    width: 20%;
+}
+
+/* Container Styles */
+.container {
+    margin-top: 50px;
+}
+
+/* Form Styles */
+.form-content {
+    border: 1px solid #ced4da;
+    margin-bottom: 2%;
+    padding: 5%;
+}
+
+.form-control {
+    border-radius: 1.5rem;
+}
+
+/* Note Styles */
+.note {
+    background: -webkit-linear-gradient(left, #4aafa1, #325D79);
+    color: #fff;
+    font-size: x-large;
+    font-weight: bold;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+}
